@@ -1,0 +1,66 @@
+/* ----- COLOR ----- */
+/* 
+#0e1216
+#303c4a
+#1a2128
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #1a2128;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    display: block;
+    cursor: pointer;
+    width: 370px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #303c4a;
+    transition: box-shadow 0.4s, transform 0.4s, background-color 0.4s;
+}
+
+.box:hover {
+    background-color: #0e1216;
+    transform: translate(-15px, -15px);
+}
+
+.box1:hover {
+    box-shadow: 10px 10px 0px rgb(169, 109, 188);
+}
+
+.box2:hover {
+    box-shadow: 10px 10px 0px rgb(109, 129, 188);
+}
+
+.box3:hover {
+    box-shadow: 10px 10px 0px rgb(109, 188, 129);
+}
+
+.box h3 {
+    padding: 30px 20px;
+    font-size: 120%;
+    border-bottom: 1px solid#51667e;
+}
+
+.box p {
+    padding: 30px 20px;
+}
